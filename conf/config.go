@@ -1,13 +1,7 @@
 package conf
 
-import "wander/test/sqlConner/common/errs"
-
-
-
-package conf
-
 import (
-"github.com/wanderself/commons/errs"
+	"github.com/wanderself/commons/errs"
 )
 
 type Config struct {
