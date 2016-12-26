@@ -1,0 +1,34 @@
+<component name="libraryTable">
+  <library name="GOPATH &lt;commons&gt;">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../gopkg.in" />
+      <root url="file://$PROJECT_DIR$/../../code.google.com" />
+      <root url="file://$PROJECT_DIR$/../../common" />
+      <root url="file://$PROJECT_DIR$/../../github.com" />
+      <root url="file://$PROJECT_DIR$/.." />
+      <root url="file://$PROJECT_DIR$/../../golang.org" />
+      <root url="file://$PROJECT_DIR$/../../9fans.net" />
+      <root url="file://$PROJECT_DIR$/../../gree" />
+      <root url="file://$PROJECT_DIR$/../../sourcegraph.com" />
+      <root url="file://$PROJECT_DIR$/../../git.apache.org" />
+      <root url="file://$PROJECT_DIR$/../../crypto" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../../gopkg.in" />
+      <root url="file://$PROJECT_DIR$/../../code.google.com" />
+      <root url="file://$PROJECT_DIR$/../../common" />
+      <root url="file://$PROJECT_DIR$/../../github.com" />
+      <root url="file://$PROJECT_DIR$/.." />
+      <root url="file://$PROJECT_DIR$/../../golang.org" />
+      <root url="file://$PROJECT_DIR$/../../9fans.net" />
+      <root url="file://$PROJECT_DIR$/../../gree" />
+      <root url="file://$PROJECT_DIR$/../../sourcegraph.com" />
+      <root url="file://$PROJECT_DIR$/../../git.apache.org" />
+      <root url="file://$PROJECT_DIR$/../../crypto" />
+    </SOURCES>
+    <excluded>
+      <root url="file://$PROJECT_DIR$" />
+    </excluded>
+  </library>
+</component>
