@@ -2,6 +2,7 @@ package conf
 
 import (
 	"github.com/wanderself/commons/errs"
+	"github.com/robfig/config"
 )
 
 type Config struct {

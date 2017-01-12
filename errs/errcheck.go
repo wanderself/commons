@@ -2,11 +2,8 @@ package errs
 
 import "log"
 
-func ErrCheck(err error, content string) error {
+func ErrCheck(err error, content string) {
 	if err != nil {
-		log.Printf("%s: %s", err, content)
-		return err
-	} else {
-		return nil
+		log.Printf("%s: %s", content, err.Error())
 	}
 }
