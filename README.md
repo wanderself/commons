@@ -1,9 +1,12 @@
 # commons
 common libs for go
 
-* conf 
+* conf  
+
 > read value from config.conf and set default value 
-* errs
+* errs 
+
 > errors log 
-* sqls
+* sqls 
+
 > MYSQL connect and insert operate
