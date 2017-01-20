@@ -33,6 +33,7 @@ func Ins(sql string, args ...interface{}) error {
 	defer stmtIns.Close()
 
 	if _, err := stmtIns.Exec(args ...); err != nil {
+		errs.ErrCheck(err, "Ins() stmtIns.Exec: ")
 		return err
 	}
 
