@@ -1,9 +1,9 @@
 package sqls
 
 import (
-	"database/sql"
 	"fmt"
-	"log"
+	"database/sql"
+	"github.com/wanderself/commons/errs"
 	_ "github.com/go-sql-driver/mysql"
 )
 
@@ -16,17 +16,12 @@ func (c *Conns) NewDataSource(user, pwd, host, database string, MaxOpenConns, Ma
 
 	db, err := sql.Open("mysql", dsn)
 	if err != nil {
-		log.Println(err.Error())
+		errs.ErrCheck(err, "NewDataSource sql.Open: ")
 		return err
 	}
 
 	db.SetMaxOpenConns(MaxOpenConns)
 	db.SetMaxIdleConns(MaxIdleConns)
-
-	if ping := db.Ping(); ping != nil {
-		log.Println(ping.Error())
-		return ping
-	}
 
 	c.DB = db
 
